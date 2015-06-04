@@ -4,6 +4,17 @@
 require.config({
     deps: ['../dist/skeleton'],
 
+    /*
+    добавить, если не встраивать соответствующие скрипты
+    если в skeleton небыло запроса напрямую vendorWire/wire - тоже надо добавлять
+    // * /
+    paths: {
+        'vendorWire': '../vendor/cujojs/wire-0.10.11',
+        'vendorWhen': '../vendor/cujojs/when-3.7.3',
+        'vendorMeld': '../vendor/cujojs/meld-1.3.2'
+    },
+    // */
+
     map:{
         'vendorWire':{
             'when':'vendorWhen/when',

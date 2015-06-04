@@ -6,9 +6,6 @@
 
     // specify custom module name paths
     paths: {
-        "spec": "../test/spec",
-        'vendor/cujojs/wire-0.10.11/builder/rjs': 'vendor/require-2.1.18/wire-rjs-0.1.0/builder',
-
         'vendorWire': '../vendor/cujojs/wire-0.10.11',
         'vendorWhen': '../vendor/cujojs/when-3.7.3',
         'vendorMeld': '../vendor/cujojs/meld-1.3.2'
